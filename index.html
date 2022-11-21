@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!--Changed title from website to Heriseon-->
-    <title>Heriseon</title>
+    <!--Changed title from 'website' to their company name-->
+    <title>Heriseon Social Solution Services</title>
 </head>
 
 <body>
 
-    <!-- Changed outer div to header tag and inside div to nav tag -->
+    <!-- Changed outer div to header tag and inside div to nav tag. Removed seo class attached to span - not needed. -->
     <header>
-        <h1>Hori<span class="seo">seo</span>n</h1>
+        <h1>Hori<span>seo</span>n</h1>
         <nav>
             <ul>
                 <li>
@@ -31,9 +31,9 @@
     <div id="hero"></div>
 
     <!-- Changed outer div to section with id rather than class. Changed name of id to something more relevent to the content. 
-    Changed inner divs class to use the same class as eachother. Added alt tags to imgs. -->
+    Changed inner divs classes to ids. Added alt tags to imgs. -->
     <section id="services">
-        <div class="services-content">
+        <div id="search-engine-optimization">
             <img class="float-left" src="./assets/images/search-engine-optimization.jpg" alt="desk with notebook illustrating seo features"/>
             <h2>Search Engine Optimization</h2>
             <p>
@@ -42,7 +42,7 @@
                 your visibility and find the right customers for your business.
             </p>
         </div>
-        <div class="services-content">
+        <div id="online-reputation-management">
             <!-- moved 'float-right' class to the beginning of element -->
             <img class="float-right" src="./assets/images/online-reputation-management.jpg" alt="laptop showing reputation presentation with graphs."/>
             <h2>Online Reputation Management</h2>
@@ -52,7 +52,7 @@
                 you the control over what potential customers see when they search for your business.
             </p>
         </div>
-        <div class="services-content">
+        <div id="social-media-marketing">
             <!-- moved 'float-left' class to the beginning of element -->
             <img class="float-left" src="./assets/images/social-media-marketing.jpg" alt="selection of icons relating to social media on a table with the words 'like', 'share', media' and 'tweet'"/>
             <h2>Social Media Marketing</h2>
@@ -65,10 +65,10 @@
     </section>
 
     <!-- Changed outer div to section with id rather than class. Changed inner divs to have the same class as eachother. 
-    Added alt attributes with no content as they are decorative icons.-->
+    Added alt attributes with no content as they are decorative icons. Changed h3 to h2.-->
     <section id="benefits">
         <div class="benefits-content">
-            <h3>Lead Generation</h3>
+            <h2>Lead Generation</h2>
             <img src="./assets/images/lead-generation.png" alt=""/>
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly
@@ -76,7 +76,7 @@
             </p>
         </div>
         <div class="benefits-content">
-            <h3>Brand Awareness</h3>
+            <h2>Brand Awareness</h2>
             <img src="./assets/images/brand-awareness.png" alt=""/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility
@@ -84,7 +84,7 @@
             </p>
         </div>
         <div class="benefits-content">
-            <h3>Cost Management</h3>
+            <h2>Cost Management</h2>
             <!-- Removed img closing tag and replaced with /> -->
             <img src="./assets/images/cost-management.png" alt=""/>
             <p>
@@ -96,7 +96,7 @@
 
     <!-- Changed div to footer tag. -->
     <footer>
-        <h3>Made with ❤️️ by Horiseon</h2>
+        <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>

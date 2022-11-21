@@ -22,8 +22,8 @@ header h1 {
     font-size: 48px;
 }
 
-/* Changed from header class to header tag selector */
-header h1 .seo {
+/* Changed from header class to header tag selector. Changed from seo class to span selector. */
+header h1 span {
     color: #d9dcd6;
 }
 
@@ -83,8 +83,8 @@ p {
     margin-left: 20px;
 }
 
-/* Changed from individual class selectors to one class selector and condensed code to one iteration */
-.services-content {
+/* Changed from individual class selectors to ids and condensed code to one iteration */
+#search-engine-optimization, #online-reputation-management, #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -93,13 +93,13 @@ p {
     color: #ffffff;
 }
 
-/* Changed from individual class selectors to one class selector and condensed code to one iteration */
-.services-content img {
+/* Changed from individual class selectors to ids and condensed code to one iteration */
+#search-engine-optimization img, #online-reputation-management img, #social-media-marketing img {
     max-height: 200px;
 }
 
-/* Changed from individual class selectors to one class selector and condensed code to one iteration */
-.services-content h2 {
+/* Changed from individual class selectors to ids and condensed code to one iteration */
+#search-engine-optimization h2, #online-reputation-management h2, #social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -125,8 +125,8 @@ code was together and inline with the order of the html code */
     color: #ffffff;
 }
 
-/* Changed from individual class selectors to one class selector and condensed code to one iteration */
-.benefits-content h3 {
+/* Changed from individual class selectors to one class selector and condensed code to one iteration. Changing from h3 to h2. */
+.benefits-content h2 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -146,7 +146,7 @@ footer {
     text-align: center;
 }
 
-/* Changed from footer class to footer tag selector and from h2 to h3 */
-footer h3 {
+/* Changed from footer class to footer tag selector. */
+footer h2 {
     font-size: 20px;
 }
