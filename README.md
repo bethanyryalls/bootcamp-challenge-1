@@ -13,21 +13,22 @@ Throughout this project I worked through the following in order to achieve that 
 
 Working through this project I realised a lot of the same functionality can be achieved using more condensed HTML and CSS, while also providing a more accessibile website.
 
+To visit the website, [please click this link.](https://LINKGOESHERE.com)
+
 ## Table of Contents
 
 - [Description](#description)
 - [Installation/Usage](#installation/usage)
 - [Challenges](#challenges)
 - [Resources](#resources)
-- [Credits](#credits)
 - [License](#license)
 
 ## Installation/Usage
 
-### Screenshots
+### Screenshot
 
-md
-    ![Heriseon Social Solution Services website](assets/images/screenshot.png)
+The following screenshot shows the full webpage and it's content
+    ![Heriseon Social Solution Services website](assets/images/heriseon-screenshot.png)
 
 ### Users
 
@@ -39,7 +40,7 @@ You will be directed to the webpage where you can navigate through the content u
 
 1. Navigate to the main page of the repository
 2. Click the green 'Code' button and copy the SSH or HTTPS key
-3. In terminal (Mac) or Git Bash (Windows) clone into the directory you want the repo in using the 'git clone' command followed 
+3. In terminal (Mac) or Git Bash (Windows) clone into the directory you want the repo in using the 'git clone' command followed by pasting your SSH or HTTPS key
 4. Open the directory in your code editor
 5. Inspect the index.html file and css file to view all accessibility features and comments
 
@@ -52,3 +53,7 @@ While ensuring that the html was semantic I decided to change the 'hero' div to 
 - [W3 Schools - HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
 - [Coding BootCamp GitHub Repo - Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 - [Markdown Guide - Basic Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
