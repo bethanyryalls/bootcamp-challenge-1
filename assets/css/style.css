@@ -56,7 +56,7 @@ p {
     font-size: 16px;
 }
 
-/* Changed from class to id selector */
+/* Changed to id selector */
 #hero {
     height: 800px;
     width: 100%;
