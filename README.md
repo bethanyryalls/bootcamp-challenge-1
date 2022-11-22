@@ -13,7 +13,7 @@ Throughout this project I worked through the following in order to achieve that 
 
 Working through this project I realised a lot of the same functionality can be achieved using more condensed HTML and CSS, while also providing a more accessibile website.
 
-To visit the website, [please click this link.](https://LINKGOESHERE.com)
+To visit the website, [please click this link.](https://bethanyryalls.github.io/bootcamp-challenge-1/)
 
 ## Table of Contents
 
@@ -32,7 +32,7 @@ The following screenshot shows the full webpage and it's content
 
 ### Users
 
-To visit the website, [please click this link.](https://LINKGOESHERE.com)
+To visit the website, [please click this link.](https://bethanyryalls.github.io/bootcamp-challenge-1/)
 
 You will be directed to the webpage where you can navigate through the content using the header links. You will also be able to inspect the code using the developer inspector and review the HTML, CSS and accessibility features.
 
